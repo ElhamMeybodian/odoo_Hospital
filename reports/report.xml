@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--        # نام گزارش در باتن می اید-->
+<odoo>
+    <report
+            id='report_patient_card'
+            string='Patient Card'
+            model='hospital.patient'
+            report_type="qweb-pdf"
+
+            name="om_hospital.report_patient"
+            file="om_hospital.report_patient"
+    />
+<!--            menu="False"-->
+    <report
+            id='report_patient_card_xlx'
+            string='Patient Card Exel'
+            model='hospital.patient'
+            report_type="qweb-pdf"
+            name="om_hospital.report_patient_xls"
+            file="om_hospital.report_patient_xls"
+    />
+</odoo>
